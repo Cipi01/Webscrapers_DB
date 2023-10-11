@@ -7,7 +7,7 @@ TABLES = ['ejobs', 'emag_tel', 'flip', 'olx_auto', 'olx_moto']
 CONNECTION = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="laleaua",
+    password="",
     database="db_webscrape"
 )
 
